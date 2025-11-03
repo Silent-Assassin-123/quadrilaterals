@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>Trapezium — Quadrilateral Explorer</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+  <header class="topnav">
+    <div class="brand">Quadrilateral Explorer</div>
+    <nav class="navlinks"><a href="index.html">Home</a><a href="square.html">Square</a><a href="rectangle.html">Rectangle</a><a href="rhombus.html">Rhombus</a><a href="parallelogram.html">Parallelogram</a><a href="trapezium.html">Trapezium</a><a href="kite.html">Kite</a></nav>
+  </header>
+
+  <main class="container shape-page">
+    <section class="shape-visual">
+      <h2>Trapezium (Trapezoid)</h2>
+      <p>At least one pair of parallel sides.</p>
+
+      <div class="canvas-wrap">
+        <canvas id="shapeCanvas" width="640" height="360"></canvas>
+      </div>
+
+      <section class="properties"><h3>Properties</h3>
+        <ul><li>One pair of parallel sides</li><li>Angles on each leg are supplementary</li></ul>
+      </section>
+
+      <section class="formulas"><h3>Formulas</h3>
+        <ul><li>Area = (a + b) / 2 × height</li><li>Perimeter = sum of sides</li></ul>
+      </section>
+
+      <section class="funfact"><h3>Fun Fact</h3><p>Region note: US name is trapezoid; in some places it's trapezium.</p></section>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',()=>initShapeCanvas('trapezium'));</script>
+</body>
+</html>

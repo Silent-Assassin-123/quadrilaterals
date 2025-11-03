@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>Square — Quadrilateral Explorer</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+  <header class="topnav">
+    <div class="brand">Quadrilateral Explorer</div>
+    <nav class="navlinks">
+      <a href="index.html">Home</a><a href="square.html">Square</a><a href="rectangle.html">Rectangle</a><a href="rhombus.html">Rhombus</a><a href="parallelogram.html">Parallelogram</a><a href="trapezium.html">Trapezium</a><a href="kite.html">Kite</a>
+    </nav>
+  </header>
+
+  <main class="container shape-page">
+    <section class="shape-visual">
+      <h2>Square</h2>
+      <p>A square has all sides equal and every angle is 90°.</p>
+
+      <div class="canvas-wrap">
+        <canvas id="shapeCanvas" width="640" height="360"></canvas>
+      </div>
+
+      <section class="properties">
+        <h3>Properties</h3>
+        <ul><li>All sides equal</li><li>All angles 90°</li><li>Diagonals bisect each other at 90° and are equal</li></ul>
+      </section>
+
+      <section class="formulas">
+        <h3>Formulas</h3>
+        <ul><li>Area = side²</li><li>Perimeter = 4 × side</li></ul>
+      </section>
+
+      <section class="funfact">
+        <h3>Fun Fact</h3>
+        <p>Every square is a rectangle, but not every rectangle is a square!</p>
+      </section>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',()=>initShapeCanvas('square'));</script>
+</body>
+</html>

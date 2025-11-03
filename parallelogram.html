@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>Parallelogram — Quadrilateral Explorer</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+  <header class="topnav">
+    <div class="brand">Quadrilateral Explorer</div>
+    <nav class="navlinks"><a href="index.html">Home</a><a href="square.html">Square</a><a href="rectangle.html">Rectangle</a><a href="rhombus.html">Rhombus</a><a href="parallelogram.html">Parallelogram</a><a href="trapezium.html">Trapezium</a><a href="kite.html">Kite</a></nav>
+  </header>
+
+  <main class="container shape-page">
+    <section class="shape-visual">
+      <h2>Parallelogram</h2>
+      <p>Opposite sides are parallel and equal in length.</p>
+
+      <div class="canvas-wrap">
+        <canvas id="shapeCanvas" width="640" height="360"></canvas>
+      </div>
+
+      <section class="properties"><h3>Properties</h3>
+        <ul><li>Opposite sides equal</li><li>Opposite angles equal</li><li>Diagonals bisect each other</li></ul>
+      </section>
+
+      <section class="formulas"><h3>Formulas</h3>
+        <ul><li>Area = base × height</li><li>Perimeter = 2 × (a + b)</li></ul>
+      </section>
+
+      <section class="funfact"><h3>Fun Fact</h3><p>A rectangle is a parallelogram with right angles.</p></section>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',()=>initShapeCanvas('parallelogram'));</script>
+</body>
+</html>
